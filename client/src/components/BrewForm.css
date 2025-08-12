@@ -1,0 +1,56 @@
+.brewform-modal {
+    min-width: 320px;
+}
+
+.brewform-navbar {
+    border-bottom: 1px solid #00000033;
+    padding-bottom: 0.5rem;
+}
+
+.brewform-back {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.brewform-save {
+    background: #23120c !important;
+    color: #ffd500 !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    box-shadow: 0 2px 8px #2a292966;
+    border: none;
+}
+
+.brewform-save:hover {
+    background: hwb(16 5% 86% / 0.9)!important;
+    color: #ffd500  !important;
+}
+
+.brewform-cancel {
+    background: #ffd500 !important;
+    color: #000000 !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    border: 2px solid black !important;
+}
+
+.brewform-cancel:hover {
+    background: hsla(50, 100%, 50%, 0.8) !important;
+    color: hsla(0, 0%, 0%, 0.9) !important;
+}
+
+.star-rating {
+    font-size: 2.5rem;
+    user-select: none;
+}
+
+.star {
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.2s;
+    margin-right: 0.15em;
+}
+
+.star-filled {
+    color: #ffd643;
+}

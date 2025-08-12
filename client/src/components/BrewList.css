@@ -1,0 +1,26 @@
+.brew-list-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.brewlist-empty-title {
+    color: #000000;
+}
+
+.brewlist-empty-btn {
+    background: #ffd943;
+    color: #000000;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px #FF704366;
+    font-weight: 600;
+    padding: 0.8rem 1.6rem;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+.brewlist-empty-btn:hover {
+    background: ffd943;
+}

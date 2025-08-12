@@ -1,0 +1,21 @@
+{
+  "name": "coffee-brew-log-app",
+  "version": "1.0.0",
+  "description": "A full-stack application for logging coffee brews.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^3.14.2",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Olebogeng Raphesu",
+  "license": "MIT"
+}

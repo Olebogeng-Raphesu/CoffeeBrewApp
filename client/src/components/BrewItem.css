@@ -1,0 +1,82 @@
+.brew-card {
+    background: #ffd000; 
+    color: #141010;      
+    border-radius: 18px;
+    box-shadow: 1px 1px 1px #33343444;
+    padding: 1.5rem 1.2rem;
+    border: 2px solid #ffcc00; 
+    transition: transform 0.18s, box-shadow 0.18s;
+    margin: 0.5rem 0;
+    width: 90%;
+    max-width: 700px;
+    position: relative;
+    overflow: hidden;
+}
+
+.brew-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    border-color: #000000;
+}
+
+.brew-card h3 {
+    font-family: 'Satoshi', 'Inter', Arial, sans-serif;
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 0.2em;
+    letter-spacing: 0.03em;
+}
+
+.brew-card .badge {
+    background: #000000;
+    color: #212121;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 12px;
+    padding: 0.4em 1em;
+}
+
+ .brew-card .mb-1{
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 0.5em;
+}
+
+.brew-card .mb-2 {
+    color: #181818;
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+}
+
+.brew-card .brew-date {
+    font-size: 0.85rem;
+    color: #000000;
+}
+
+.brew-card .btn {
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px #A8E6CF66;
+    margin-right: 0.5rem;
+    transition: background 0.18s, color 0.18s, transform 0.18s;
+    background: #000000;
+    color: #ffcc00;
+    border: none;
+}
+
+.brew-card .btn:hover {
+    background: hsla(0, 0%, 0%, 0.814);
+    color: #fff;
+    transform: translateY(-2px) scale(1.05);
+}
+
+.brew-card .btn:last-child {
+    background: none;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.brew-card .btn:last-child:hover {
+    background: none;
+    color: #fff;
+}

@@ -1,0 +1,66 @@
+body {
+  background: #F6F1EB;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #3C2F2F;
+}
+
+h1, h2, h3, h4, h5, h6, label {
+  font-family: 'Satoshi', 'Inter', Arial, sans-serif;
+  color: #000000;
+  letter-spacing: 0.02em;
+}
+
+.logo, .accent-title {
+  font-family: 'Freckle Face', cursive;
+  color: #ffc743;
+  letter-spacing: 0.05em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff3a4;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(60,47,47,0.15);
+  padding: 2rem;
+}
+
+.brew-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.delete-btn {
+  background: #000000;
+  color: #fff3a4;
+}
+
+.delete-btn:hover {
+  background: #fff3a4;
+  color: #fff;
+}
+
+input, textarea {
+  border-radius: 8px !important;
+  border: 2px solid #9E9E9E !important;
+  background: #F6F1EB !important;
+  color: #3C2F2F !important;
+  font-family: 'Inter', Arial, sans-serif;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus, textarea:focus {
+  border-color: #FF7043 !important;
+  box-shadow: 0 0 0 2px #A8E6CF55 !important;
+  outline: none;
+  animation: ripple 0.4s;
+}
+
+
+
+.form-label {
+  color: #000000;
+  font-family: 'Satoshi', Arial, sans-serif;
+}
